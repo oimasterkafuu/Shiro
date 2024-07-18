@@ -187,7 +187,7 @@ const Hero = () => {
           )}
         >
           <small className="text-center">
-            当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。
+            置身于这温暖如画的世界，不禁感叹生命的奇迹。对这美好的一切心怀感激！
           </small>
           <span className="mt-8 animate-bounce">
             <i className="icon-[mingcute--right-line] rotate-90 text-2xl" />
@@ -244,7 +244,7 @@ const windsock = [
     path: '/thinking',
   },
   {
-    title: '看看我做些啥',
+    title: '我开发的项目',
     icon: MdiFlask,
     path: '/projects',
   },
@@ -254,7 +254,7 @@ const windsock = [
     icon: FaSolidComments,
   },
   {
-    title: '跃迁',
+    title: '萌萌跃迁',
     icon: RMixPlanet,
     path: 'https://travel.moe/go.html',
   },
