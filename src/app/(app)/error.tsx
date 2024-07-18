@@ -20,7 +20,8 @@ export default ({ error, reset }: any) => {
         <h2 className="mb-5 text-center">
           <p>渲染页面时出现了错误</p>
           <p>
-            多次出现错误请联系开发者 <a href="mailto:i@innei.in">Innei</a>
+            多次出现错误请联系站长{' '}
+            <a href="mailto:oimasterfake@icloud.com">oimasterkafuu</a>
             ，谢谢！
           </p>
         </h2>
