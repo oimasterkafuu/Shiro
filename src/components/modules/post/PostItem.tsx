@@ -10,10 +10,17 @@ import { PostItemHoverOverlay } from './PostItemHoverOverlay'
 import { PostMetaBar } from './PostMetaBar'
 
 export const PostItem = memo<{ data: PostModel }>(function PostItem({ data }) {
-  const displayText =
-    data.text.length > 300
-      ? `${RemoveMarkdown(data.text.slice(0, 300))}...`
-      : data.text
+  let displayText
+  const moreIndex = data.text.indexOf('<!--more-->')
+
+  if (moreIndex !== -1) {
+    displayText = RemoveMarkdown(data.text.slice(0, moreIndex))
+  } else if (data.text.length > 300) {
+    displayText = `${RemoveMarkdown(data.text.slice(0, 300))}……`
+  } else {
+    displayText = data.text
+  }
+
   const hasImage = data.images?.length > 0 && data.images[0].src
   const categorySlug = data.category?.slug
   const postLink = `/posts/${categorySlug}/${data.slug}`
