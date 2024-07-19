@@ -121,7 +121,10 @@ const PoweredBy: Component = ({ className }) => {
         mobileAsSheet
         type="tooltip"
         triggerElement={
-          <StyledLink href="https://github.com/innei/Shiro" target="_blank">
+          <StyledLink
+            href="https://github.com/oimasterkafuu/Shiro"
+            target="_blank"
+          >
             Shiro
           </StyledLink>
         }
@@ -129,7 +132,7 @@ const PoweredBy: Component = ({ className }) => {
         这是{' '}
         <StyledLink
           className="underline"
-          href="https://github.com/innei/Shiro"
+          href="https://github.com/oimasterkafuu/Shiro"
           target="_blank"
         >
           Shiro

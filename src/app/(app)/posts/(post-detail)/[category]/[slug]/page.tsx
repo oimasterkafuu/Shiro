@@ -115,7 +115,7 @@ const PostPage = ({ data }: { data: ModelWithLiked<PostModel> }) => {
 
           <PostOutdate />
 
-          <PostRelated infoText="阅读此文章之前，你可能需要首先阅读以下的文章才能更好的理解上下文。" />
+          {/* <PostRelated infoText="阅读此文章之前，你可能需要首先阅读以下的文章才能更好的理解上下文。" /> */}
         </div>
         <WrappedElementProvider eoaDetect>
           <ReadIndicatorForMobile />
