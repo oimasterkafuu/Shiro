@@ -65,6 +65,20 @@ export const PostCopyright: FC = () => {
           进行许可。
         </p>
       </div>
+      <Divider />
+      <div>
+        <p>
+          如果你喜欢这篇文章，<strong>无需登录，即可点赞</strong>。
+        </p>
+        <p>
+          你的轻轻一点能给予我<strong>莫大的支持与鼓励</strong>
+          。每一个赞都是我前进的动力，让我知道我的分享对你有所启发或帮助。
+        </p>
+        <p>
+          请<strong>不要吝啬你的点赞</strong>
+          ，这对我意义非凡。感谢你的一路相伴！
+        </p>
+      </div>
     </section>
   )
 }

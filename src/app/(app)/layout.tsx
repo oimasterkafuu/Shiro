@@ -212,10 +212,8 @@ const SayHi = () => {
         __html: `var version = "${version}";
     (${function () {
       const motto = `
-This Personal Space Powered By Mix Space.
-Written by TypeScript, Coding with Love.
---------
-Stay hungry. Stay foolish. --Steve Jobs
+Welcome to oimaster's blog!
+Powered by Mix Space & Shiro, Modified by oimaster.
 `
       if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
         document.prepend(document.createComment(motto))
