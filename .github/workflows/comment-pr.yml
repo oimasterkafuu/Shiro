@@ -2,7 +2,7 @@ name: Comment on the pull request
 
 # read-write repo token
 # access to secrets
-# on:
+on: workflow_dispatch
 #   workflow_run:
 #     workflows: ["Next.js Bundle Analysis"]
 #     types:
