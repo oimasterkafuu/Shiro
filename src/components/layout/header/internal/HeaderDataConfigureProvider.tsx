@@ -30,10 +30,12 @@ export const HeaderDataConfigureProvider: Component = ({ children }) => {
       if (homeIndex !== -1) {
         nextMenuConfig[homeIndex].subMenu = []
         for (const page of pageMeta) {
-          nextMenuConfig[homeIndex].subMenu!.push({
-            path: `/${page.slug}`,
-            title: page.title,
-          })
+          if (page.slug !== 'admin') {
+            nextMenuConfig[homeIndex].subMenu!.push({
+              path: `/${page.slug}`,
+              title: page.title,
+            })
+          }
         }
       }
     }
