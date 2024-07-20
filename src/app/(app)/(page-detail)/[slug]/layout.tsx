@@ -26,7 +26,7 @@ import { WrappedElementProvider } from '~/providers/shared/WrappedElementProvide
 import {
   HeaderMetaInfoSetting,
   PageLoading,
-  // PagePaginator,
+  PagePaginator,
   PageSubTitle,
   PageTitle,
 } from './pageExtra'
@@ -122,9 +122,9 @@ export default definePrerenderPage<PageParams>()({
                 </WrappedElementProvider>
               </RoomProvider>
 
-              {/* <BottomToUpSoftScaleTransitionView delay={1000}>
+              <BottomToUpSoftScaleTransitionView delay={1000}>
                 <PagePaginator />
-              </BottomToUpSoftScaleTransitionView> */}
+              </BottomToUpSoftScaleTransitionView>
             </div>
           </PageLoading>
 
