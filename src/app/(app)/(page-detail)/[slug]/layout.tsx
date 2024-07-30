@@ -1,5 +1,5 @@
 /* eslint-disable react/display-name */
-import { cache } from 'react'
+import React, { cache } from 'react'
 import type { Metadata } from 'next'
 
 import {
