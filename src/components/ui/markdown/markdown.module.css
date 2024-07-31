@@ -123,7 +123,7 @@
     --lightness: 0.35;
   }
 
-  mark span {
+  mark > span {
     background: linear-gradient(
         120deg,
         var(--highlight, lightblue) 50%,
